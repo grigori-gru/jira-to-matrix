@@ -40,10 +40,6 @@
     ],
     "all": true
   },
-  "pre-commit": [
-    "lint",
-    "test-all"
-  ],
   "devDependencies": {
     "@types/body-parser": "^1.19.0",
     "@types/chai": "^4.2.11",
@@ -87,7 +83,6 @@
     "node-git-server": "^0.6.1",
     "nodemon": "^2.0.2",
     "nyc": "^14.1.1",
-    "pre-commit": "^1.2.2",
     "prettier": "^1.19.1",
     "sinon": "^9.0.1",
     "sinon-chai": "^3.5.0",
